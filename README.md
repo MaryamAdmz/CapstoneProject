@@ -21,3 +21,10 @@ This data comes to us from the UCI Machine Learning repository and was collected
     "Add_to_Cart_Browsing", "Cart_Completion_Frequency", "Cart_Abandonment_Factors",
     "Saveforlater_Frequency", "Review_Left", "Review_Reliability",
     "Review_Helpfulness", "Service_Appreciation", "Improvement_Areas"
+### Detailed Insights
+###Understanding the Task
+###Engineering Features
+###Baseline Model
+###Simple Model/Score the Model
+###Improving the Model
+###Next Steps and Recommendations
