@@ -18,7 +18,7 @@ This data comes to us from the UCI Machine Learning repository and was collected
 - Features: "age", "Gender", "Purchase_Categories", "Purchase_Frequency",
     "Personalized_Recommendation_Frequency", "Recommendation_Helpfulness",
     "Browsing_Frequency", "Product_Search_Method", "Search_Result_Exploration",
-    "Add_to_Cart_Browsing", "Cart_Completion_Frequency", "Cart_Abandonment_Factors",
+    "Add_to_Cart_Browsing", "Cart_Completion_Frequency", "Cart_Abandonment_Factors",;;;
     "Saveforlater_Frequency", "Review_Left", "Review_Reliability",
     "Review_Helpfulness", "Service_Appreciation", "Improvement_Areas"
 ### Detailed Insights
