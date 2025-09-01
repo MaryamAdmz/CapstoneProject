@@ -1,8 +1,8 @@
-# CapstoneProject
-In this project , our goal is to classify customer add-to-cart behavior (0 = browsing only, 1 = added once, 2 = added multiple times) based on their browsing activity 
-and survey responses by using K Nearest Neighbor, Logistic Regression, Decision Trees, and Support Vector Machines.
-The dataset dataset collected for analyzing the behavioral analysis of Amazon's consumers consists of a comprehensive 
-collection of customer interactions,browsing patterns within the Amazon ecosystem. It includes a wide range of
+# Capstone Project
+This project aims to classify Amazon customers by their add-to-cart behavior (browsing only, adding once, adding multiple times) based on their browsing activity and survey responses using machine learning models, including K-Nearest Neighbor(KNN), Logistic Regression, Decision Trees, Support Vector Machines(SVM), XGBoost, GaussianNB, and Random Forest.
+
+The dataset collected for analyzing the behavioral analysis of Amazon's consumers consists of a comprehensive 
+collection of customer interactions and browsing patterns within the Amazon ecosystem. It includes a wide range of
 variables such as customer demographics, user interaction, and reviews. The dataset
 aims to provide insights into customer preferences, shopping habits, and decision-making processes on 
 the Amazon platform. By analyzing this dataset, researchers and analysts can gain a deeper understanding
