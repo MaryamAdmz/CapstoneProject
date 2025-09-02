@@ -18,7 +18,7 @@ This dataset originates from [Kaggle](https://www.kaggle.com/datasets/swathiunni
     - "No": customer browsing only
     - "Maybe": customer is uncertain
  - **Features/Description**
-   
+<sub>   
 | Feature Name                          | Description                                                  |
 |---------------------------------------|--------------------------------------------------------------|
 | Timestamp                             | Date and time of the response                                |
@@ -39,7 +39,11 @@ This dataset originates from [Kaggle](https://www.kaggle.com/datasets/swathiunni
 | Review_Reliability                    | Trust in customer reviews                                    |
 | Review_Helpfulness                    | Finds other reviews helpful?                                 |
 | Recommendation_Helpfulness            | Finds recommendations helpful?                               |
-
+|Rating_Accuracy	                        |How would you rate the relevance and accuracy of the recommendations you receive|
+|Shopping_Satisfaction	|How satisfied are you with your overall shopping experience on Amazon?|
+|Service_Appreciation	|What aspects of Amazon's services do you appreciate the most?|
+|Improvement_Areas|	Are there any areas where you think Amazon can improve?|
+ <sub>
 
   
 ### Detailed Insights
