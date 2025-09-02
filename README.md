@@ -18,7 +18,7 @@ This dataset originates from [Kaggle](https://www.kaggle.com/datasets/swathiunni
     - "No": customer browsing only
     - "Maybe": customer is uncertain
  - **Features/Description**
-<sub>   
+   
 | Feature Name                          | Description                                                  |
 |---------------------------------------|--------------------------------------------------------------|
 | Timestamp                             | Date and time of the response                                |
@@ -43,7 +43,7 @@ This dataset originates from [Kaggle](https://www.kaggle.com/datasets/swathiunni
 |Shopping_Satisfaction                 	|How satisfied are you with your overall shopping experience on Amazon?|
 |Service_Appreciation	                  |What aspects of Amazon's services do you appreciate the most?|
 |Improvement_Areas                      |	Are there any areas where you think Amazon can improve?|
- <sub>
+
 
   
 ### Detailed Insights
