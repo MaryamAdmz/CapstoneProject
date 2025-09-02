@@ -28,8 +28,7 @@ This dataset originates from [Kaggle](https://www.kaggle.com/datasets/swathiunni
 | Purchase_Categories                   | Common product categories purchased                          |
 | Personalized_Recommendation_Frequency | Bought from personalized recommendations?                    |
 | Browsing_Frequency                    | How often user browses Amazon                                |
-| Product_Search_Method                 | How the 
-user searches for products                               |
+| Product_Search_Method                 | How the user searches for products                           |
 | Search_Result_Exploration             | Tendency to explore beyond first page                        |
 | Customer_Reviews_Importance           | Importance of customer reviews                               |
 | Add_to_Cart_Browsing                  | Adds items to cart while browsing?                           |
@@ -52,51 +51,22 @@ The dataset was examined for missing values, duplicates, and outliers:
   - Only 2 null values were found in the Product_search_Method column; they were replaced with the mode of that column.
   - The dataset contains a duplicated column, Personalized_Recommendation_Frequency, once as an object type and once as int64.
   - No outliers were detected in the dataset.
-    Based on my analysis of the dataset, several interesting patterns emerged about how customers interact with Amazon. These insights focus on age, gender, product preferences, and browsing habits.
-1. Age Group Activity:
-Young users aged 0–20 are the most active on the platform. They interact with the website more than other age groups.
-
-2. Gender Breakdown:
-Most customers are female (58.5%), followed by male (23.6%), prefer not to say (14.8%), and others (3.16%).
-
-3. Popular Product Categories:
-The top three categories are:
-
-Clothing and Fashion
-
-Beauty and Personal Care
-
-Others
+Based on my analysis of the dataset, several interesting patterns emerged about how customers interact with Amazon. These insights focus on age, gender, product preferences, and browsing habits.
+- Age Group Activity:
+ - Young users aged 0–20 are the most active on the platform. They interact with the website more than other age groups.
+- Gender Breakdown:
+  - Most customers are female (58.5%), followed by male (23.6%), prefer not to say (14.8%), and others (3.16%).
+- Popular Product Categories:
+ The top three categories are: Clothing and Fashion, Beauty and Personal Care, and Others.
 In comparison, categories like Groceries and Home and Kitchen are less popular.
+- What Customers Like:
+People appreciate: Product recommendations, Good prices, A wide selection of items
+- What Needs Improvement:
+Customers want better: Customer service, Product quality and accuracy, and Less packaging waste.
+- Browsing Patterns: Female users tend to browse more during the evening and night.
 
-4. What Customers Like:
-People appreciate:
-
-Product recommendations
-
-Good prices
-
-A wide selection of items
-
-5. What Needs Improvement:
-Customers want better:
-
-Customer service
-
-Product quality and accuracy
-
-Less packaging waste
-
-6. Browsing Patterns:
-Female users tend to browse more during the evening and night.
-
-Looking at Multiple Factors Together:
-
-When we look at age, gender, time, and add-to-cart behavior:
-
-Female adults and young adults are the main group who browse without buying, especially at night.
-
-The same group also tends to make purchases at night more than others.
+- Looking at Multiple Factors Together:
+ - When we look at age, gender, time, and add-to-cart behavior: Female adults and young adults are the main group who browse without buying, especially at night. The same group also tends to make purchases at night more than others.
 
 
 
