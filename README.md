@@ -12,12 +12,12 @@ The dataset is designed to provide insights into customer preferences, shopping 
 
 ## Understanding the Data
 This dataset originates from [Kaggle](https://www.kaggle.com/datasets/swathiunnikrishnan/amazon-consumer-behaviour-dataset) and was collected through a survey on the Amazon ecosystem.
- -**Size:** 603 observations with 23 features
- -**Label:**
+ - **Size:** 603 observations with 23 features
+ - **Label:**
     - "Yes": customer added item(s)
     - "No": customer browsing only
     - "Maybe": customer is uncertain
- -**Features:** "Timestamp","age","Gender","Purchase_Frequency","Purchase_Categories",
+ - **Features:** "Timestamp","age","Gender","Purchase_Frequency","Purchase_Categories",
   "Personalized_Recommendation_Frequency","Browsing_Frequency", "Product_Search_Method",    "Search_Result_Exploration",Customer_Reviews_Importance', "Add_to_Cart_Browsing", "Cart_Completion_Frequency", "Cart_Abandonment_Factors","Saveforlater_Frequency", "Review_Left", "Review_Reliability",
     "Review_Helpfulness","Recommendation_Helpfulness","Rating_Accuracy","Shopping_Satisfaction "  "Service_Appreciation", "Improvement_Areas"
   
