@@ -18,6 +18,7 @@ This dataset originates from [Kaggle](https://www.kaggle.com/datasets/swathiunni
     - "No": customer browsing only
     - "Maybe": customer is uncertain
  - **Features/Description**
+   
 | Feature Name                          | Description                                                  |
 |---------------------------------------|--------------------------------------------------------------|
 | Timestamp                             | Date and time of the response                                |
