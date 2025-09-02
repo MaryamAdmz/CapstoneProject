@@ -17,9 +17,29 @@ This dataset originates from [Kaggle](https://www.kaggle.com/datasets/swathiunni
     - "Yes": customer added item(s)
     - "No": customer browsing only
     - "Maybe": customer is uncertain
- - **Features:** "Timestamp","age","Gender","Purchase_Frequency","Purchase_Categories",
-  "Personalized_Recommendation_Frequency","Browsing_Frequency", "Product_Search_Method",    "Search_Result_Exploration",Customer_Reviews_Importance', "Add_to_Cart_Browsing", "Cart_Completion_Frequency", "Cart_Abandonment_Factors","Saveforlater_Frequency", "Review_Left", "Review_Reliability",
-    "Review_Helpfulness","Recommendation_Helpfulness","Rating_Accuracy","Shopping_Satisfaction "  "Service_Appreciation", "Improvement_Areas"
+ - **Features/Description**
+ | ID  | Feature Name                          | Feature Description                                                                       |
+|-----|---------------------------------------|--------------------------------------------------------------------------------------------|
+| 1   | Timestamp                             | Date/Time                                                                                  |
+| 2   | age                                   | Age                                                                                        |
+| 3   | Gender                                | Gender                                                                                     |
+| 4   | Purchase_Frequency                    | How frequently do you make purchases on Amazon?                                           |
+| 5   | Purchase_Categories                   | What product categories do you typically purchase on Amazon?                              |
+| 6   | Personalized_Recommendation_Frequency | Have you ever made a purchase based on personalized product recommendations from Amazon?  |
+| 7   | Browsing_Frequency                    | How often do you browse Amazon's website or app?                                          |
+| 8   | Product_Search_Method                 | How do you search for products on Amazon?                                                 |
+| 9   | Search_Result_Exploration             | Do you explore multiple pages of search results or just the first one?                    |
+| 10  | Customer_Reviews_Importance           | How important are customer reviews in your decision-making process?                       |
+| 11  | Add_to_Cart_Browsing                  | Do you add products to your cart while browsing on Amazon?                                |
+| 12  | Cart_Completion_Frequency             | How often do you complete the purchase after adding products to your cart?                |
+| 13  | Cart_Abandonment_Factors              | What factors influence your decision to abandon a purchase in your cart?                  |
+| 14  | Saveforlater_Frequency                | Do you use Amazon's "Save for Later" feature, and if so, how often?                       |
+| 15  | Review_Left                           | Have you ever left a product review on Amazon?                                             |
+| 16  | Review_Reliability                    | How much do you rely on product reviews when making a purchase?                          |
+| 17  | Review_Helpfulness                    | Do you find helpful information from other customers' reviews?                            |
+| 18  | Personalized_Recommendation_Frequency | How often do you receive personalized product recommendations from Amazon?                |
+| 19  | Recommendation_Helpfulness            | Do you find the recommendations helpful?                                                  |
+
   
 ### Detailed Insights
 ###Understanding the Task
