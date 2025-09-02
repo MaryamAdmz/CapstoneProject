@@ -51,6 +51,7 @@ The dataset was examined for missing values, duplicates, and outliers:
   - Only 2 null values were found in the Product_search_Method column; they were replaced with the mode of that column.
   - The dataset contains a duplicated column, Personalized_Recommendation_Frequency, once as an object type and once as int64.
   - No outliers were detected in the dataset.
+    
 Based on my analysis of the dataset, several interesting patterns emerged about how customers interact with Amazon. These insights focus on age, gender, product preferences, and browsing habits.
 - Age Group Activity:
  - Young users aged 0–20 are the most active on the platform. They interact with the website more than other age groups.
