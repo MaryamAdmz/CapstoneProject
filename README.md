@@ -64,11 +64,7 @@ People appreciate: Product recommendations, Good prices, A wide selection of ite
 Customers want better: Customer service, Product quality and accuracy, and Less packaging waste.
 - Browsing Patterns: Female users tend to browse more during the evening and night.
 
-<p align="center">
-  <img src="plot1.png" alt="Pie 1"  width="200"/>
-  <img src="plot2.png" alt="Pie 2"  width="200"/>
-  <img src="plot3.png" alt="Pie 3"  width="200"/>
-</p>
+
 
 
 <p align="center">
