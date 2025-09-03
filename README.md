@@ -82,10 +82,7 @@ Customers want better: Customer service, Product quality and accuracy, and Less 
 
 ### Combined Insight: Age, Gender, Time, and Purchase Behavior
 When we look at age, gender, time, and add-to-cart behavior, Female adults and young adults are the main group who browse without buying, especially at night. The same group also tends to make purchases at night more than others.
-<p align="center">
-  <img src="Figures/plot8.png" alt=" " width="400"/>
-</p>
-
+![plot8](Figures/plot8.png)
 ## Understanding the Task
 The goal of this machine learning project is to identify the key factors that influence whether a customer adds an item to their cart on Amazon. By understanding the patterns behind this behavior, we aim to improve product engagement and conversion strategies.
 
