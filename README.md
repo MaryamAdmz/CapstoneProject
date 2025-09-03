@@ -77,17 +77,17 @@ We seek to answer questions such as:
 - Are personalized recommendations linked to add-to-cart actions?
 - Does the way customers interact with reviews impact their purchase intent?
 
-###Engineering Features
+### Engineering Features
 The following steps were taken to prepare the data for modeling:
 
 - Feature Selection:
-   The top 10 features selected using SelectKBest with ANOVA F-test include a mix of encoded categorical and numerical variables such as Gender, Time_Status, Age_Category, Browsing_Frequency, Personalized_Recommendation_Frequency, Recommendation_Helpfulness, and Shopping_Satisfaction, among others.
+   The top 10 features selected using SelectKBest with ANOVA F-test include a mix of encoded categorical and numerical    variables such as Gender, Time_Status, Age_Category, Browsing_Frequency, Personalized_Recommendation_Frequency,    Recommendation_Helpfulness, and Shopping_Satisfaction, among others.
+  
 - Preprocessing with ColumnTransformer:
-- Numerical features were passed through without modification.
-- Categorical features were transformed using OneHotEncoder to handle non-numeric values appropriately.
+  - Numerical features were passed through without modification.
+  - Categorical features were transformed using OneHotEncoder to handle non-numeric values appropriately.
 - Target Encoding:
 The target variable (Add_to_Cart_Browsing) was encoded into numeric labels using LabelEncoder.
-
 - Data Splitting:
 The dataset was split into training and testing sets using train_test_split, with 80% of the data used for training and 20% reserved for testing.
 
