@@ -69,7 +69,9 @@ Customers want better: Customer service, Product quality and accuracy, and Less 
   <img src="plot2.png"  width="200"/>
   <img src="plot3.png"  width="200"/>
 </p>
-
+![plot1](Figures/plot1.png)
+![plot1](Figures/plot2.png)
+![plot1](Figures/plot3.png)
 
 
 
