@@ -77,7 +77,7 @@ We seek to answer questions such as:
 - Are personalized recommendations linked to add-to-cart actions?
 - Does the way customers interact with reviews impact their purchase intent?
 
-### Engineering Features
+## Engineering Features
 The following steps were taken to prepare the data for modeling:
 
 - Feature Selection:
@@ -92,7 +92,7 @@ The target variable (Add_to_Cart_Browsing) was encoded into numeric labels using
 The dataset was split into training and testing sets using train_test_split, with 80% of the data used for training and 20% reserved for testing.
 
 
-###Baseline Model
+## Baseline Model
 For the baseline model, we chose Logistic Regression, a simple yet effective method that can handle multi-class classification. 
 
 
