@@ -65,9 +65,9 @@ Customers want better: Customer service, Product quality and accuracy, and Less 
 - Browsing Patterns: Female users tend to browse more during the evening and night.
 
 <p align="center">
-  <img src="plot1.png"  width="200"/>
-  <img src="plot2.png"  width="200"/>
-  <img src="plot3.png"  width="200"/>
+  <img src="plot1.png" alt="Pie 1"  width="200"/>
+  <img src="plot2.png" alt="Pie 2"  width="200"/>
+  <img src="plot3.png" alt="Pie 3"  width="200"/>
 </p>
 | Pie 1 | Pie 2 | Pie 3 |
 |-------|-------|-------|
