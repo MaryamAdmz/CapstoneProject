@@ -98,6 +98,9 @@ For the baseline model, we chose Logistic Regression, a simple yet effective met
 
 
 After training and testing the model on the dataset, the following results were observed:
+| Model Name          | Accuracy   | Precision  | Recall 	   | F1_Score   | 
+|---------------------|:-----------|:-----------|:-----------|:-----------|
+| Logestic Regression | 0.6860     | 0.6843     | 0.6860     |  0.6825    | 
 
 ###Simple Model/Score the Model
 ###Improving the Model
