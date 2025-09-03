@@ -70,6 +70,11 @@ Customers want better: Customer service, Product quality and accuracy, and Less 
   <img src="Figures/plot3.png" alt=" " width="300"/>
 </p>
 
+<p align="center">
+  <img src="Figures/plot5.png" alt=" " width="300"/>
+  <img src="Figures/plot6.png" alt=" " width="300"/>
+  <img src="Figures/plot4.png" alt=" " width="300"/>
+</p>
 
 
 
