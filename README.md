@@ -63,9 +63,9 @@ People appreciate: Product recommendations, Good prices, A wide selection of ite
 - What Needs Improvement:
 Customers want better: Customer service, Product quality and accuracy, and Less packaging waste.
 - Browsing Patterns: Female users tend to browse more during the evening and night.
-![plot1](figures/plot1.png)
-![plot1](figures/plot2.png)
-![plot1](figures/plot3.png)
+![plot1](Figures/plot1.png)
+![plot1](Figures/plot2.png)
+![plot1](Figures/plot3.png)
 
 ### Combined Insight: Age, Gender, Time, and Purchase Behavior
 When we look at age, gender, time, and add-to-cart behavior, Female adults and young adults are the main group who browse without buying, especially at night. The same group also tends to make purchases at night more than others.
