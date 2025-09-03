@@ -94,14 +94,12 @@ The dataset was split into training and testing sets using train_test_split, wit
 
 ## Baseline Model
 For the baseline model, we chose Logistic Regression, a simple yet effective method that can handle multi-class classification. 
-
-
-
 After training and testing the model on the dataset, the following results were observed:
 | Model Name          | Accuracy   | Precision  | Recall 	   | F1_Score   | 
 |---------------------|:-----------|:-----------|:-----------|:-----------|
 | Logestic Regression | 0.6860     | 0.6843     | 0.6860     |  0.6825    | 
 
+This shows that the model performs consistently across accuracy, precision, recall, and F1-score, without strongly favoring either class. The similar values across metrics suggest the model is fairly balanced. However, there’s still room to improve, and trying further tuning, better feature engineering, or different models like decision trees, random forests, or XGBoost could help increase its performance.
 ###Simple Model/Score the Model
 ###Improving the Model
 ###Next Steps and Recommendations
