@@ -74,10 +74,14 @@ Customers want better: Customer service, Product quality and accuracy, and Less 
 | ![](Figures/plot1.png) | ![](Figures/plot2.png) | ![](Figures/plot3.png) |
 
 <p align="center">
-  <img src="plot1.png" alt="Pie 1" width="200"/>
-  <img src="plot2.png" alt="Pie 2" width="200"/>
-  <img src="plot3.png" alt="Pie 3" width="200"/>
+  <img src="Figures/plot1.png" alt="Pie 1" width="200"/>
+  <img src="Figures/plot2.png" alt="Pie 2" width="200"/>
+  <img src="Figures/plot3.png" alt="Pie 3" width="200"/>
 </p>
+
+| Pie 1 | Pie 2 | Pie 3 |
+|---|---|---|
+| ![](Figures/plot1.png) | ![](Figures/plot2.png) | ![](Figures/plot3.png) |
 
 
 ### Combined Insight: Age, Gender, Time, and Purchase Behavior
