@@ -63,6 +63,13 @@ People appreciate: Product recommendations, Good prices, A wide selection of ite
 - What Needs Improvement:
 Customers want better: Customer service, Product quality and accuracy, and Less packaging waste.
 - Browsing Patterns: Female users tend to browse more during the evening and night.
+| Pie 1 | Pie 2 | Pie 3 |
+|-------|-------|-------|
+|![plot1](Figures/plot1.png) | ![plot1](Figures/plot2.png) | ![plot1](Figures/plot3.png) |
+ 
+
+
+
 ![plot1](Figures/plot1.png)
 ![plot1](Figures/plot2.png)
 ![plot1](Figures/plot3.png)
