@@ -87,12 +87,18 @@ The following steps were taken to prepare the data for modeling:
   - Numerical features were passed through without modification.
   - Categorical features were transformed using OneHotEncoder to handle non-numeric values appropriately.
 - Target Encoding:
-The target variable (Add_to_Cart_Browsing) was encoded into numeric labels using LabelEncoder.
+The target variable (Add_to_Cart_Browsing) was encoded into numeric labels using pandas.Categorical.
 - Data Splitting:
 The dataset was split into training and testing sets using train_test_split, with 80% of the data used for training and 20% reserved for testing.
 
 
 ###Baseline Model
+For the baseline model, we chose Logistic Regression, a simple yet effective method that can handle multi-class classification. 
+
+
+
+After training and testing the model on the dataset, the following results were observed:
+
 ###Simple Model/Score the Model
 ###Improving the Model
 ###Next Steps and Recommendations
