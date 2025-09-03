@@ -65,28 +65,14 @@ Customers want better: Customer service, Product quality and accuracy, and Less 
 - Browsing Patterns: Female users tend to browse more during the evening and night.
 
 <p align="center">
-  <img src="plot1.png" alt="Pie 1" width="200"/>
-  <img src="plot2.png" alt="Pie 2" width="200"/>
-  <img src="plot3.png" alt="Pie 3" width="200"/>
+  <img src="plot1.png"  width="200"/>
+  <img src="plot2.png"  width="200"/>
+  <img src="plot3.png"  width="200"/>
 </p>
 
 
 
 
-
-
-
-
-| Pie 1 | Pie 2 | Pie 3 |
-|-------|-------|-------|
-|![plot1](Figures/plot1.png) | ![plot1](Figures/plot1.png) | ![plot1](Figures/plot1.png) |
- 
-
-
-
-![plot1](Figures/plot1.png)
-![plot1](Figures/plot2.png)
-![plot1](Figures/plot3.png)
 
 ### Combined Insight: Age, Gender, Time, and Purchase Behavior
 When we look at age, gender, time, and add-to-cart behavior, Female adults and young adults are the main group who browse without buying, especially at night. The same group also tends to make purchases at night more than others.
