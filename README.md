@@ -52,7 +52,7 @@ The dataset was examined for missing values, duplicates, and outliers:
   - The dataset contains a duplicated column, Personalized_Recommendation_Frequency, once as an object type and once as int64.
   - No outliers were detected in the dataset.
     
-Based on my analysis of the dataset, several interesting patterns emerged about how customers interact with Amazon. These insights focus on age, gender, product preferences, and browsing habits.
+Based on my analysis of the dataset, several interesting patterns emerged about how customers interact with Amazon. These insights individually focus on age, gender, product preferences, and browsing habits:
 - Age Group Activity: Young users aged 0–20 are the most active on the platform. They interact with the website more than other age groups.
 - Gender Breakdown: Most customers are female (58.5%), followed by male (23.6%), prefer not to say (14.8%), and others (3.16%).
 - Popular Product Categories:
@@ -64,14 +64,20 @@ People appreciate: Product recommendations, Good prices, A wide selection of ite
 Customers want better: Customer service, Product quality and accuracy, and Less packaging waste.
 - Browsing Patterns: Female users tend to browse more during the evening and night.
 ### Combined Insight: Age, Gender, Time, and Purchase Behavior
-When we look at age, gender, time, and add-to-cart behavior: Female adults and young adults are the main group who browse without buying, especially at night. The same group also tends to make purchases at night more than others.
+When we look at age, gender, time, and add-to-cart behavior, Female adults and young adults are the main group who browse without buying, especially at night. The same group also tends to make purchases at night more than others.
 
 
+## Understanding the Task
+The goal of this machine learning project is to identify the key factors that influence whether a customer adds an item to their cart on Amazon. By understanding the patterns behind this behavior, we aim to improve product engagement and conversion strategies.
 
-
-
-
-###Understanding the Task
+We seek to answer questions such as:
+- Does age group affect the likelihood of adding items to the cart?
+- How does time of day influence behavior?
+- What role does gender play in purchase intention?
+- Are there specific product categories that trigger more add-to-cart actions?
+- Does browsing behavior (duration, frequency) predict add-to-cart intent?
+ 
+By training models on these features, we aim to build a predictive tool that can help e-commerce platforms personalize product recommendations and improve customer conversion rates.
 ###Engineering Features
 ###Baseline Model
 ###Simple Model/Score the Model
