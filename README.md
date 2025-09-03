@@ -71,14 +71,27 @@ When we look at age, gender, time, and add-to-cart behavior, Female adults and y
 The goal of this machine learning project is to identify the key factors that influence whether a customer adds an item to their cart on Amazon. By understanding the patterns behind this behavior, we aim to improve product engagement and conversion strategies.
 
 We seek to answer questions such as:
-- Does age group affect the likelihood of adding items to the cart?
-- How does time of day influence behavior?
-- What role does gender play in purchase intention?
-- Are there specific product categories that trigger more add-to-cart actions?
-- Does browsing behavior (duration, frequency) predict add-to-cart intent?
- 
-By training models on these features, we aim to build a predictive tool that can help e-commerce platforms personalize product recommendations and improve customer conversion rates.
+- Do age, gender, and certain times of day affect add-to-cart behavior?
+- Do frequent shoppers add to cart more often?
+- Which product categories lead to more cart activity?
+- Are personalized recommendations linked to add-to-cart actions?
+- Does the way customers interact with reviews impact their purchase intent?
+
 ###Engineering Features
+The following steps were taken to prepare the data for modeling:
+
+- Feature Selection:
+   The top 10 features selected using SelectKBest with ANOVA F-test include a mix of encoded categorical and numerical variables such as Gender, Time_Status, Age_Category, Browsing_Frequency, Personalized_Recommendation_Frequency, Recommendation_Helpfulness, and Shopping_Satisfaction, among others.
+- Preprocessing with ColumnTransformer:
+- Numerical features were passed through without modification.
+- Categorical features were transformed using OneHotEncoder to handle non-numeric values appropriately.
+- Target Encoding:
+The target variable (Add_to_Cart_Browsing) was encoded into numeric labels using LabelEncoder.
+
+- Data Splitting:
+The dataset was split into training and testing sets using train_test_split, with 80% of the data used for training and 20% reserved for testing.
+
+
 ###Baseline Model
 ###Simple Model/Score the Model
 ###Improving the Model
