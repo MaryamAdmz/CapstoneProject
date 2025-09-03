@@ -63,6 +63,9 @@ People appreciate: Product recommendations, Good prices, A wide selection of ite
 - What Needs Improvement:
 Customers want better: Customer service, Product quality and accuracy, and Less packaging waste.
 - Browsing Patterns: Female users tend to browse more during the evening and night.
+![plot1](figures/plot1.png)
+
+
 ### Combined Insight: Age, Gender, Time, and Purchase Behavior
 When we look at age, gender, time, and add-to-cart behavior, Female adults and young adults are the main group who browse without buying, especially at night. The same group also tends to make purchases at night more than others.
 
@@ -100,6 +103,6 @@ After training and testing the model on the dataset, the following results were 
 | Logestic Regression | 0.6860     | 0.6843     | 0.6860     |  0.6825    | 
 
 This shows that the model performs consistently across accuracy, precision, recall, and F1-score, without strongly favoring either class. The similar values across metrics suggest the model is fairly balanced. However, there’s still room to improve, and trying further tuning, better feature engineering, or different models like decision trees, random forests, or XGBoost could help increase its performance.
-###Simple Model/Score the Model
-###Improving the Model
-###Next Steps and Recommendations
+
+## Improving the Model
+## Next Steps and Recommendations
