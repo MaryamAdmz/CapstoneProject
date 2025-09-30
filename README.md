@@ -113,9 +113,22 @@ For the baseline model, we chose Logistic Regression, a simple yet effective met
 After training and testing the model on the dataset, the following results were observed:
 | Model Name          | Accuracy   | Precision  | Recall 	   | F1_Score   | 
 |---------------------|:-----------|:-----------|:-----------|:-----------|
-| Logestic Regression | 0.6860     | 0.6843     | 0.6860     |  0.6825    | 
+| Logestic Regression | 0.6362     | 0.7240     | 0.6924    |  0.6995    | 
 
 This shows that the model performs consistently across accuracy, precision, recall, and F1-score, without strongly favoring either class. The similar values across metrics suggest the model is fairly balanced. However, there’s still room to improve, and trying further tuning, better feature engineering, or different models like decision trees, random forests, or XGBoost could help increase its performance.
 
 ## Improving the Model
+To improve model performance, the following strategies were applied
+  - Class balancing with SMOTE: This technique was used to address imbalance across the three target classes, enabling models to learn from underrepresented groups more effectively.
+
+- Model experimentation: Multiple classification models such as KNN, SVM, Decision Tree, Random Forest, GaussianNB, XGBoost were tested to compare performance and identify the most suitable algorithm for the task.
+
+- Hyperparameter tuning: RandomizedSearchCV was used to optimize key model parameters such as number of neighbors, depth, learning rate to improve generalization and reduce overfitting.
+
+
+
+
+
+
+First, SMOTE was applied to address class imbalance in the dataset, helping the models learn more effectively from underrepresented classes. Additionally, a variety of classification algorithms were explored—including K-Nearest Neighbors, Support Vector Machines, Decision Trees, Random Forests, Gaussian Naive Bayes, and XGBoost—to assess which model architecture best captured the patterns in the data. Finally, hyperparameter tuning using RandomizedSearchCV was performed for each model to optimize key parameters, such as the number of neighbors in KNN or the maximum depth in decision trees. These improvements collectively led to more balanced and accurate predictions across all three target classes.
 ## Next Steps and Recommendations
