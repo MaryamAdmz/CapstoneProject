@@ -125,6 +125,9 @@ To improve model performance, the following strategies were applied
 
 - Hyperparameter tuning: RandomizedSearchCV was used to optimize key model parameters such as number of neighbors, depth, learning rate to improve generalization and reduce overfitting.
 
+| Model Name          | Accuracy   | Precision  | 
+|---------------------|:-----------|:-----------|
+| Logestic Regression | 0.6362     | 0.7240     | 
 
 
 
