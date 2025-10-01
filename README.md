@@ -115,7 +115,7 @@ After training and testing the model on the dataset, the following results were 
 |---------------------|:-----------|:-----------|:-----------|:-----------|
 | Logestic Regression | 0.6362     | 0.7240     | 0.6924    |  0.6995    | 
 
-This shows that the model performs consistently across accuracy, precision, recall, and F1-score, without strongly favoring either class. The similar values across metrics suggest the model is fairly balanced. However, there’s still room to improve, and trying further tuning, better feature engineering, or different models like decision trees, random forests, or XGBoost could help increase its performance.
+This shows that the model performs consistently across accuracy, precision, recall, and F1-score, without strongly favoring either class. The similar values across metrics suggest the model is fairly balanced. However, there’s still room to improve, and further tuning, better feature engineering, or different models, such as decision trees, random forests, or XGBoost, could help increase its performance.
 
 ## Improving the Model
 To improve model performance, the following strategies were applied
@@ -123,11 +123,28 @@ To improve model performance, the following strategies were applied
 
 - Model experimentation: Multiple classification models such as KNN, SVM, Decision Tree, Random Forest, GaussianNB, XGBoost were tested to compare performance and identify the most suitable algorithm for the task.
 
-- Hyperparameter tuning: RandomizedSearchCV was used to optimize key model parameters such as number of neighbors, depth, learning rate to improve generalization and reduce overfitting.
+- Hyperparameter tuning: RandomizedSearchCV was used to optimize key model parameters such as the number of neighbors, depth, and learning rate to improve generalization and reduce overfitting.
 
+Results before hyperparameter tuning
 | Model Name          | Accuracy   | Precision  | 
 |---------------------|:-----------|:-----------|
-| Logestic Regression | 0.6362     | 0.7240     | 
+| knn                 | 0.6383     | 0.5785     | 
+| SVM                 | 0.6798     | 0.6612     | 
+| Decision Tree       | 0.6965     | 0.6364     | 
+| GaussianNB          | 0.6466     | 0.6942     | 
+| Random Forest       | 0.6965     | 0.6364     | 
+| XGBoost             | 0.6965     | 0.6612     |
+
+Results after hyperparameter tuning
+| Model Name          | Accuracy   | Precision  | 
+|---------------------|:-----------|:-----------|
+| knn                 | 0.6985     | 0.6364     | 
+| SVM                 | 0.6611     | 0.7190     | 
+| Decision Tree       | 0.6736     | 0.6446     | 
+| GaussianNB          | 0.6071     | 0.6364     | 
+| Random Forest       | 0.7339     | 0.7190     | 
+| XGBoost             | 0.7900     | 0.6612     |
+
 
 
 
