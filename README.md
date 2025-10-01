@@ -126,24 +126,24 @@ To improve model performance, the following strategies were applied
 - Hyperparameter tuning: RandomizedSearchCV was used to optimize key model parameters such as the number of neighbors, depth, and learning rate to improve generalization and reduce overfitting.
 
 Results before hyperparameter tuning
-|Model Name           |Train Accuracy   | Test Accuracy  | 
-|---------------------|:----------------|:---------------|
-| knn                 | 0.6383          | 0.5785         | 
-| SVM                 | 0.6798          | 0.6612         | 
-| Decision Tree       | 0.6965          | 0.6364         | 
-| GaussianNB          | 0.6466          | 0.6942         | 
-| Random Forest       | 0.6965          | 0.6364         | 
-| XGBoost             | 0.6965          | 0.6612         |
+|Model Name           |Train Accuracy   | Test Accuracy  | Train Time(s) |
+|---------------------|:----------------|:---------------|:--------------|
+| knn                 | 0.6383          | 0.5785         | 0.0510        |
+| SVM                 | 0.6798          | 0.6612         | 0.0448        |
+| Decision Tree       | 0.6965          | 0.6364         | 0.0382        |
+| GaussianNB          | 0.6466          | 0.6942         | 0.0354        |
+| Random Forest       | 0.6965          | 0.6364         | 0.3709        |
+| XGBoost             | 0.6965          | 0.6612         | 0.2280        |
 
 Results after hyperparameter tuning
-| Model Name          | Train Accuracy   |Test Accuracy  | 
-|---------------------|:-----------------|:--------------|
-| knn                 | 0.6985           | 0.6364        | 
-| SVM                 | 0.6611           | 0.7190        | 
-| Decision Tree       | 0.6736           | 0.6446        | 
-| GaussianNB          | 0.6071           | 0.6364        | 
-| Random Forest       | 0.7339           | 0.7190        | 
-| XGBoost             | 0.7900           | 0.6612        |
+| Model Name          | Train Accuracy   |Test Accuracy  | Train Time(s) |
+|---------------------|:-----------------|:--------------|:--------------|
+| knn                 | 0.6985           | 0.6364        | 1.55          |
+| SVM                 | 0.6611           | 0.7190        | 2.78          |
+| Decision Tree       | 0.6736           | 0.6446        | 1.69          |
+| GaussianNB          | 0.6071           | 0.6364        | 2.54          |
+| Random Forest       | 0.7339           | 0.7190        | 15.95         |
+| XGBoost             | 0.7900           | 0.6612        | 7.10          |
 
 
 
