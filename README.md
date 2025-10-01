@@ -126,14 +126,14 @@ To improve model performance, the following strategies were applied
 - Hyperparameter tuning: RandomizedSearchCV was used to optimize key model parameters such as the number of neighbors, depth, and learning rate to improve generalization and reduce overfitting.
 
 Results before hyperparameter tuning
-| Model Name          | Accuracy   | Precision  | 
-|---------------------|:-----------|:-----------|
-| knn                 | 0.6383     | 0.5785     | 
-| SVM                 | 0.6798     | 0.6612     | 
-| Decision Tree       | 0.6965     | 0.6364     | 
-| GaussianNB          | 0.6466     | 0.6942     | 
-| Random Forest       | 0.6965     | 0.6364     | 
-| XGBoost             | 0.6965     | 0.6612     |
+| Model Name          |Train Accuracy   | Train Accuracy | 
+|---------------------|:----------------|:---------------|
+| knn                 | 0.6383          | 0.5785         | 
+| SVM                 | 0.6798          | 0.6612         | 
+| Decision Tree       | 0.6965          | 0.6364         | 
+| GaussianNB          | 0.6466          | 0.6942         | 
+| Random Forest       | 0.6965          | 0.6364         | 
+| XGBoost             | 0.6965          | 0.6612         |
 
 Results after hyperparameter tuning
 | Model Name          | Accuracy   | Precision  | 
