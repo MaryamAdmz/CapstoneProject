@@ -147,6 +147,23 @@ Results after hyperparameter tuning
 | Random Forest       | 0.7339           | 0.7190        | 15.95         |
 | XGBoost             | 0.7900           | 0.6612        | 7.10          |
 
+Model Performance Analysis:
+- Before hyperparameter tuning, the strongest performer was GaussianNB, which achieved the highest test accuracy (0.6942) despite a relatively modest training accuracy (0.6466). Other models such as SVM (0.6612) and XGBoost (0.6612) performed reasonably, while Decision Tree and Random Forest both settled at 0.6364 test accuracy. KNN remained the weakest with 0.5785 test accuracy.
+
+- After hyperparameter tuning, performance improved significantly. Random Forest and SVM both reached the top test accuracy of 0.7190, but their training performance tells an important story:
+
+   - Random Forest achieved 0.7339 train accuracy and 0.7190 test accuracy, showing only a small gap between training and testing performance. This indicates a good fit with relatively low overfitting.
+
+    - SVM, by contrast, had 0.6611 train accuracy and 0.7190 test accuracy. While it generalized well, the notably lower training score suggests that it underfit the data compared to Random Forest.
+
+ - XGBoost reached the highest training accuracy (0.7900), but its test accuracy plateaued at 0.6612, a clear sign of overfitting given the limited dataset size.
+
+   - Other models showed modest improvements but did not match the performance of Random Forest and SVM. Notably, GaussianNB declined in both train and test accuracy after tuning.
+
+Conclusion:
+Considering both training and testing accuracy, Random Forest is the most reliable model for this dataset. It offers strong test performance while maintaining balanced training accuracy, avoiding the underfitting risk seen in SVM and the overfitting problem of XGBoost.
+
+
 
 
 ## Next Steps and Recommendations
