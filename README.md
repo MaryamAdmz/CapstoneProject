@@ -150,3 +150,11 @@ Results after hyperparameter tuning
 
 
 ## Next Steps and Recommendations
+
+
+Despite its usefulness, the dataset has several important drawbacks:
+- The dataset covers only a 13-day period, which limits its ability to capture seasonal patterns such as holidays, sales events, or weekday vs weekend variations. This short window introduces temporal bias and reduces the representativeness of long-term consumer behavior.
+- The sample size is relatively small (602 records), which reduces statistical power and makes it harder to build robust, generalizable models. Small datasets are also more vulnerable to noise and overfitting.
+- Being survey-based, the data may contain response bias (such as socially desirable answers) and imprecise categories such as "Sometimes" or "Few times a month", which weaken the accuracy of the analysis.
+
+
