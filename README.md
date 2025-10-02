@@ -125,6 +125,8 @@ To improve model performance, the following strategies were applied
 
 - Hyperparameter tuning: RandomizedSearchCV was used to optimize key model parameters such as the number of neighbors, depth, and learning rate to improve generalization and reduce overfitting.
 
+These improvements collectively led to more balanced and accurate predictions across all three target classes.
+
 Results before hyperparameter tuning
 |Model Name           |Train Accuracy   | Test Accuracy  | Train Time(s) |
 |---------------------|:----------------|:---------------|:--------------|
@@ -147,8 +149,4 @@ Results after hyperparameter tuning
 
 
 
-
-
-
-First, SMOTE was applied to address class imbalance in the dataset, helping the models learn more effectively from underrepresented classes. Additionally, a variety of classification algorithms were explored—including K-Nearest Neighbors, Support Vector Machines, Decision Trees, Random Forests, Gaussian Naive Bayes, and XGBoost—to assess which model architecture best captured the patterns in the data. Finally, hyperparameter tuning using RandomizedSearchCV was performed for each model to optimize key parameters, such as the number of neighbors in KNN or the maximum depth in decision trees. These improvements collectively led to more balanced and accurate predictions across all three target classes.
 ## Next Steps and Recommendations
